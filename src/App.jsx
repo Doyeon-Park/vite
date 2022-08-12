@@ -1,8 +1,10 @@
+import Header from "./components/Header";
 import "./App.css";
 
 function App() {
   return (
     <div className="app">
+      <Header />
       <div className="content">
         <Card title="Text">Hello, world!</Card>
         <Card title="Card within the card">
